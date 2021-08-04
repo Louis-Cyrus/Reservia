@@ -14,21 +14,51 @@
 
     <body>
         <!--Header-->
-        <header>
+        <header class="En-tête">
             <!--Logo-->
+            <span class="logo"><img src="images/logo/Reservia.svg" alt="Logo Reservia" title="Titre Reservia"></span>
             <!--Nav-->
+            <nav>
+                <ul>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#Activités">Activités</a></li>
+                    <li>S'inscrire</li>
+                </ul>
+            </nav>
         </header>
 
         <!--Main-->
-        <main>
-            <section>
+        <main class="Contenu">
             <!--Section 1 Champ de recherche-->
+            <section class="recherche">
+                <div class="surtitre">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre ville ou en pleine nature</p>
+                </div>
+
+                <div class="search">
+                    <span class="marker"><i class="fas fa-map-marker-alt"></i></span>
+                    <input type="search" id="reservia-search" name="q" value="Marseille, France" placeholder="Recherchez une ville">
+                    <button type="submit" class="btnsearch">Rechercher</button>
+                </div>
             </section>
-            <section>
+
             <!--Section 2 Filtres-->
-            </section>
-            <section>
+            <section class="filtres">
+                <h3>Filtres</h3>
+                <button><span class="money"><i class="fas fa-money-bill-wave"></i></span>Économique</button>
+                <button><span class="child"><i class="fas fa-child"></i></span>Familial</button>
+                <button><span class="heart"><i class="fas fa-heart"></i></span>Romantique</button>
+                <button><span class="dog"><i class="fas fa-dog"></i></span>Animaux autorisés</button>
+            </section> <br>
+
             <!--Section 3 Hebergements-->
+            <section id="hebergements" class="Marseille">
+                <small><span class="info"><i class="fas fa-info-circle"></i></span>Plus de 500 logements sont disponibles dans cette ville</small>
+
+                <div class="conteneur1">
+                    <h2>Hébergement à Marseille</h2>
+                </div>
             </section>
             <aside>
             <!--Aside Les plus populaires-->
