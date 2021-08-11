@@ -1,3 +1,30 @@
 *{
     font-family: 'Raleway', sans-serif;
 }
+
+html {
+    display: block;
+}
+
+@media (max-width: 1200px) {
+header{
+    position: relative;
+}
+}
+
+@media (max-width: 1200px) {
+nav {
+    flex-basis: 100%;
+    order: 2;
+    display: flex;
+}
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: -30px;
+}
