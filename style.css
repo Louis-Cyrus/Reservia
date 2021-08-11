@@ -12,6 +12,11 @@ header{
 }
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 1200px) {
 nav {
     flex-basis: 100%;
@@ -24,7 +29,10 @@ nav {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: -30px;
+}
+
+ul{
+    list-style: none;
 }
