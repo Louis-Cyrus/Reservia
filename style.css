@@ -6,33 +6,47 @@ html {
     display: block;
 }
 
-@media (max-width: 1200px) {
-header{
-    position: relative;
-}
+header, main {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-@media (max-width: 1200px) {
 nav {
-    flex-basis: 100%;
-    order: 2;
     display: flex;
-}
-}
-
-nav {
     flex: 1;
-    display: flex;
     justify-content: flex-end;
-    margin-top: 10px;
-    margin-left: -30px;
 }
 
-ul{
+nav ul{
+    display: flex;
     list-style: none;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    padding-left: 30px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.inscrire{
+    font-weight: bold;
+    color: #0065fc;
+}
+
+nav ul li a:hover{
+    border-top: solid 1px #0065fc;
+    padding-top: 35px;
+    color: #0065fc;
 }
