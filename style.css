@@ -1,6 +1,8 @@
 *{
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -21,12 +23,14 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 nav {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 nav ul{
@@ -53,16 +57,18 @@ nav li a {
 
 nav ul li a:hover{
     border-top: solid 1px #0065fc;
-    padding-top: 35px;
+    padding-top: 29px;
     color: #0065fc;
 }
 
 h2{
     font-size: 1.25rem;
+    margin-bottom: 5px;
 }
 
 p{
     font-size: 0.8rem;
+    margin-bottom: 15px;
 }
 
 .search {
@@ -125,6 +131,7 @@ h3 {
 
 .filtres h3 {
     margin-right: 32px;
+    padding: 15px 0 15px 5px;
 }
 
 .filtres a {
@@ -381,4 +388,76 @@ h4 {
 
 .card-title .star {
     color: #0065fc;
+}
+
+.activites {
+    margin: 62px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 446px;
+    margin-top: 24px;
+}
+
+.card-activity {
+    border-radius: 10px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 25%);
+    transition: all 1s ease-in-out;
+}
+
+.card-activity:hover {
+    box-shadow: 10px 10px 11px 3px rgba(0, 0, 0, 25%);
+}
+
+.pic-activity {
+    width: 302px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.act1 {
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    height: 403px;
+}
+
+.act2 {
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    height: 195px;
+}
+
+.act3 {
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    height: 120px;
+}
+
+.act4 {
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    height: 403px;
+}
+
+.act5 {
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    height: 150px;
+}
+
+.act6 {
+    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    height: 165px;
+}
+
+.card-activity h4 {
+    padding: 12px 22px;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
 }
