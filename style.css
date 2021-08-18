@@ -14,13 +14,62 @@ a {
     color: black;
 }
 
+@media screen and (max-width: 480px) {
+    header, main {
+        margin: 0;
+    }
+    
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+        border-bottom: solid 2.5px #f2f2f2;
+    }
+
+    nav ul li {
+        width: 50%;
+        text-align: center;
+        padding: 10px 0 10px 8px;
+    }
+
+    nav li a {
+        margin-right: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul .li-heb a {
+        padding-right: 80px;
+    }
+
+    nav ul .li-act a {
+        padding-right: 40px;
+    }
+
+    nav p {
+        position: absolute;
+        top: -45px;
+        padding-right: 25px;
+    }
+}
+
 header, main {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin: 0 30px;
+}
+
+@media screen and (min-width: 1025px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }  
 }
 
 header {
-    display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -33,15 +82,10 @@ nav {
     margin-top: 10px;
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-}
-
 nav li {
-    list-style-type: none;
-    float: left;
     padding-left: 30px;
+    float: left;
+    list-style-type: none;
 }
 
 nav li a {
@@ -50,15 +94,27 @@ nav li a {
     transition: all 0.4s;
 }
 
-.inscrire{
-    font-weight: bold;
-    color: #0065fc;
-}
-
 nav ul li a:hover{
     border-top: solid 1px #0065fc;
     padding-top: 29px;
     color: #0065fc;
+}
+
+header nav p {
+    margin-left: 35px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+.inscrire{
+    font-weight: bold;
+    color: #0065fc;
+    transition: all 0.4s;
+}
+
+.inscrire:hover {
+    border-top: solid 1px #0065fc;
+    padding-top: 29px;
 }
 
 h2{
