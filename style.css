@@ -15,46 +15,139 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-    header, main {
+    body header {
+        margin: 0;
+    }
+
+    body main {
         margin: 0;
     }
     
-    header {
-        justify-content: space-between;
-        align-items: center;
+    body header {
+        margin-top: 20px;
     }
 
-    nav {
+    header img {
+        margin-left: 20px;
+    }
+
+    header nav {
         position: relative;
     }
 
-    nav ul {
+    header nav ul {
+        width: 100%;
+        text-align: center;
         border-bottom: solid 2.5px #f2f2f2;
     }
 
-    nav ul li {
+    header nav ul li {
         width: 50%;
         text-align: center;
-        padding: 10px 0 10px 8px;
+        padding: 10px 0 10px 8%;
     }
 
-    nav li a {
-        margin-right: 30px;
-        padding-left: 50px;
+    header nav ul .li-heb a {
+        padding: 0 20px 15px 0;
     }
 
-    nav ul .li-heb a {
-        padding-right: 80px;
-    }
-
-    nav ul .li-act a {
-        padding-right: 40px;
+    header nav ul .li-act a {
+        padding: 0 20px 15px 0;
     }
 
     nav p {
         position: absolute;
         top: -45px;
         padding-right: 25px;
+    }
+
+    .recherche {
+        margin: 20px;
+    }
+
+    .surtitre {
+        text-align: center;
+    }
+
+    .surtitre h2 {
+        margin-bottom: 5px;
+    }
+
+    .surtitre p {
+        font-size: 14px;
+        margin: 10px 20px;
+    }
+
+    .search {
+        margin-top: 35px;
+        justify-content: center;
+    }
+
+    .search .city {
+        width: 190px;
+    }
+
+    .search .btnsearch {
+        width: 51px;
+        height: 51px;
+        border-radius: 10px;
+    }
+
+    .btnsearch span {
+        display: none;
+    }
+
+    .search .btnsearch .fa-search {
+        display: block;
+        visibility: visible;
+        color: white;
+    }
+
+    .filtres {
+        margin: 20px;
+    }
+
+    .filtres h3 {
+        flex-basis: 100%;
+    }
+    
+    .filtres a {
+        margin: 0 10px 12px 0;
+    }
+
+    small {
+        margin: 0 20px;
+    }
+
+    .marseille .conteneur1 {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    .conteneur1 .conteneur2 {
+        margin: 0;
+        background: none;
+    }
+
+    .conteneur1 .popular {
+        padding: 40px 20px;
+        width: auto;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .activites h2{
+        margin-left: 50px;
+    }
+
+    .activites .content {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    .content .activity-link {
+        margin: 12px 0;
     }
 }
 
@@ -171,6 +264,10 @@ p{
     background-color: #e5e3ff;
     border: 1px solid #0065fc;
     cursor: pointer;
+}
+
+.btnsearch .fa-search {
+    display: none;
 }
 
 .filtres {
