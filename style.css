@@ -38,13 +38,21 @@ a {
     header nav ul {
         width: 100%;
         text-align: center;
-        border-bottom: solid 2.5px #f2f2f2;
     }
 
     header nav ul li {
         width: 50%;
         text-align: center;
         padding: 10px 0 10px 8%;
+        border-bottom: solid 2.5px #f2f2f2;
+    }
+
+    header nav ul li:hover {
+        border-bottom: solid 2.5px #0065fc;
+    }
+
+    header nav ul li a:hover {
+        border-top: none;
     }
 
     header nav ul .li-heb a {
@@ -58,7 +66,7 @@ a {
     nav p {
         position: absolute;
         top: -45px;
-        padding-right: 25px;
+        margin-right: 10px;
     }
 
     .recherche {
@@ -105,13 +113,14 @@ a {
 
     .filtres {
         margin: 20px;
+        width: 100%;
     }
 
     .filtres h3 {
         flex-basis: 100%;
     }
     
-    .filtres a {
+    main .filtres a {
         margin: 0 10px 12px 0;
     }
 
@@ -124,9 +133,21 @@ a {
         max-height: none;
     }
 
+    .conteneur3 .cardlink {
+        margin: 6px 0;
+    }
+
+    .conteneur3 .imgmain {
+        width: 305px;
+    }
+
     .conteneur1 .conteneur2 {
         margin: 0;
         background: none;
+    }
+
+    .conteneur2 .more {
+        margin-top: 13px;
     }
 
     .conteneur1 .popular {
@@ -134,6 +155,10 @@ a {
         width: auto;
         border-radius: 0;
         margin: 0;
+    }
+
+    main .activites {
+        margin: 30px 0;
     }
 
     .activites h2{
@@ -148,6 +173,26 @@ a {
 
     .content .activity-link {
         margin: 12px 0;
+    }
+
+    .content .pic-activity {
+        height: 134px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer .footercontent {
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer .footercontent div {
+        margin: 0 0 0 20px;
+        padding-bottom: 0;
     }
 }
 
