@@ -302,7 +302,12 @@ a {
     }
 
     footer .footercontent {
-        margin-left: 18%;
+        justify-content: start;
+    }
+
+    footer .footercontent div {
+        margin-right: 160px;
+        margin-left: 20px;
     }
 }
 
