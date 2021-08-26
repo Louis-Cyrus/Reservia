@@ -241,12 +241,20 @@ a {
         justify-content: center;
     }
 
-    .content {
-        overflow: scroll;
+    .activites .content {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
     }
 
-    .content a {
-        align-content: space-around;
+    .content .activity-link {
+        margin: 12px;
+    }
+
+    .card-activity .pic-activity {
+        height: 140px;
     }
 
     footer .footercontent div {
@@ -303,8 +311,20 @@ a {
         justify-content: center;
     }
 
-    .content {
-        overflow: scroll;
+    .activites .content {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+    }
+
+    .content .activity-link {
+        margin: 12px;
+    }
+
+    .card-activity .pic-activity {
+        height: 140px;
     }
 
     footer .footercontent {
