@@ -311,54 +311,6 @@ a {
     }
 }
 
-@media screen and (min-width: 1600px){
-    .recherche {
-        display: flex;
-    }
-
-    .recherche .search {
-        flex: 1;
-        justify-content: flex-end;
-        margin-bottom: 5%;
-    }
-
-    .marseille .conteneur1 {
-        flex-direction: column-reverse;
-        max-height: none;
-    }
-
-    .conteneur1 .conteneur2 {
-        display: flex;
-        max-width: 100%;
-        margin-right: 0;
-    }
-
-    .conteneur3 .cardlink {
-        margin: 15px 30px 20px 20px;
-    }
-
-    .conteneur3 .imgmain {
-        width: 350px;
-        height: 115px;
-    }
-
-    .popular .fa-chart-line {
-        margin-top: 10px;
-    }
-
-    .conteneur1 .popular {
-        display: flex;
-        flex-direction: row;
-        width: auto;
-        margin: 0 0 25px 0;
-    }
-
-    .conteneur1 .popular .conteneur4 {
-        flex-direction: row;
-        width: 100%;
-    }
-}
-
 header, main {
     margin: 0 30px;
 }
@@ -570,8 +522,8 @@ h3 {
 .conteneur2 {
     display: flex;
     flex-direction: column;
-    max-width: 950px;
-    padding: 40px 0;
+    width: 70%;
+    padding: 40px 10px;
     margin-right: 20px;
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -605,7 +557,7 @@ h3 {
 }
 
 .imgmain {
-    width: 236px;
+    width: 290px;
     height: 114px;
     background-size: cover;
     background-position: center;
@@ -673,10 +625,10 @@ h4 {
 .popular {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 28%;
     align-items: center;
-    margin-left: 30px;
-    padding: 40px 20px 0 20px;
+    margin-left: 15px;
+    padding-top: 40px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
@@ -693,18 +645,18 @@ h4 {
 }
 
 .fa-chart-line {
-    margin-left: 75px;
+    margin-left: 165px;
 }
 
 .card {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 13px 0 rgba(0, 0, 0, 25%);
 }
 
 .cardpopular {
     display: flex;
-    width: 300px;
+    width: 380px;
     height: 134px;
     padding: 5px;
     transition: all 1s ease-in-out;
@@ -719,8 +671,8 @@ h4 {
     height: 125px;
     background-size: cover;
     background-position: center;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .hotelSoleil {
@@ -736,7 +688,8 @@ h4 {
 }
 
 .card-title {
-    padding-left: 12px;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .card-title h4 {
