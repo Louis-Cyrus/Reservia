@@ -337,8 +337,27 @@ a {
     }
 }
 
-@media screen and (min-width: 1600px){
-  
+@media screen and (min-width: 1025px) and (max-width: 1350px){
+    .conteneur1 .conteneur2 {
+        overflow: scroll;
+        margin-right: 0;
+    }
+
+    .activites .content {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+    }
+
+    .content .activity-link {
+        margin: 12px;
+    }
+
+    .card-activity .pic-activity {
+        height: 140px;
+    }
 }
 
 header, main {
@@ -571,7 +590,7 @@ h3 {
 }
 
 .cardlink {
-    margin: 15px 0 20px 0;
+    margin: 15px 5px 20px 5px;
 }
 
 .cardmain {
