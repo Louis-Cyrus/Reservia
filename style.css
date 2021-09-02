@@ -201,7 +201,186 @@ a {
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width:757px){
+    body header {
+        margin: 0;
+    }
+
+    body main {
+        margin: 0;
+    }
+    
+    body header {
+        margin-top: 20px;
+    }
+
+    header img {
+        margin-left: 20px;
+    }
+
+    header nav {
+        position: relative;
+    }
+
+    header nav ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li {
+        width: 50%;
+        text-align: center;
+        padding: 10px 0 10px 8%;
+        border-bottom: solid 2.5px #f2f2f2;
+    }
+
+    header nav ul li:hover {
+        border-bottom: solid 2.5px #0065fc;
+    }
+
+    header nav ul li a:hover {
+        border-top: none;
+    }
+
+    header nav ul .li-heb a {
+        padding: 0 20px 15px 0;
+    }
+
+    header nav ul .li-act a {
+        padding: 0 20px 15px 0;
+    }
+
+    nav p {
+        position: absolute;
+        top: -45px;
+        margin-right: 10px;
+    }
+
+    .recherche {
+        margin: 20px;
+    }
+
+    .surtitre {
+        text-align: center;
+    }
+
+    .surtitre h2 {
+        margin-bottom: 5px;
+    }
+
+    .surtitre p {
+        font-size: 14px;
+        margin: 10px 20px;
+    }
+
+    .search {
+        margin-top: 35px;
+        justify-content: center;
+    }
+
+    .search .city {
+        width: 190px;
+    }
+
+    .search .btnsearch {
+        width: 51px;
+        height: 51px;
+        border-radius: 10px;
+    }
+
+    .btnsearch span {
+        display: none;
+    }
+
+    .search .btnsearch .fa-search {
+        display: block;
+        visibility: visible;
+        color: white;
+    }
+
+    .filtres {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .filtres h3 {
+        flex-basis: 100%;
+    }
+    
+    main .filtres a {
+        margin: 0 10px 12px 0;
+    }
+
+    small {
+        margin: 0 20px;
+    }
+
+    .marseille .conteneur1 {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    .conteneur3 .cardlink {
+        margin: 6px 0;
+    }
+
+    .conteneur3 .imgmain {
+        width: 305px;
+    }
+
+    .conteneur1 .conteneur2 {
+        margin: 0;
+        background: none;
+    }
+
+    .conteneur2 .more {
+        margin-top: 13px;
+    }
+
+    .conteneur1 .popular {
+        padding: 40px 20px;
+        width: auto;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    main .activites {
+        margin: 30px 0;
+    }
+
+    .activites h2{
+        margin-left: 50px;
+    }
+
+    .activites .content {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    .content .activity-link {
+        margin: 12px 0;
+    }
+
+    .content .pic-activity {
+        height: 134px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer .footercontent {
+        flex-direction: column;
+    }
+
+    footer .footercontent div {
+        margin: 0 0 0 20px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 758px) and (max-width: 768px){
     header {
         display: flex;
     }
