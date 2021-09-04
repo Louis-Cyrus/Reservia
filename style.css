@@ -104,8 +104,16 @@ a {
         justify-content: center;
     }
 
+    .search .marker {
+        width: 51px;
+    }
+
+    .search .fa-map-marker-alt {
+        padding: 16.5px 20px;
+    }
+
     .search .city {
-        width: 190px;
+        width: 220px;
     }
 
     .search .btnsearch {
@@ -150,6 +158,25 @@ a {
         margin: 6px 0;
     }
 
+    .cardlink .card {
+        border-radius: 20px;
+    }
+
+    .cardlink .imgpopular {
+        width: 135px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .cardlink .card-title {
+        padding-left: 15px;
+    }
+
+
+    .cardlink .cardpopular {
+        width: 350px;
+    }
+
     .conteneur3 .imgmain {
         width: 305px;
     }
@@ -164,7 +191,7 @@ a {
     }
 
     .conteneur1 .popular {
-        padding: 40px 20px;
+        padding: 20px 20px;
         width: auto;
         border-radius: 0;
         margin: 0;
@@ -541,6 +568,15 @@ a {
 
     .card-activity .pic-activity {
         height: 140px;
+    }
+
+    footer .footercontent {
+        justify-content: start;
+    }
+
+    footer .footercontent div {
+        margin-right: 160px;
+        margin-left: 20px;
     }
 }
 
