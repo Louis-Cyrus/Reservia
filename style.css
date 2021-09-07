@@ -234,6 +234,11 @@ a {
 }
 
 @media screen and (min-width: 481px) and (max-width:757px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     body header {
         margin: 0;
     }
@@ -356,6 +361,29 @@ a {
         margin: 6px 0;
     }
 
+    .conteneur1 .popular {
+        background-color: none;
+    }
+
+    .cardlink .card {
+        border-radius: 20px;
+    }
+
+    .cardlink .imgpopular {
+        width: 135px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .cardlink .card-title {
+        padding-left: 15px;
+    }
+
+
+    .cardlink .cardpopular {
+        width: 350px;
+    }
+
     .conteneur3 .imgmain {
         width: 305px;
     }
@@ -370,7 +398,7 @@ a {
     }
 
     .conteneur1 .popular {
-        padding: 40px 20px;
+        padding: 20px 20px;
         width: auto;
         border-radius: 0;
         margin: 0;
@@ -417,6 +445,10 @@ a {
         display: flex;
     }
 
+    main {
+        margin: 0;
+    }
+
     .surtitre {
         text-align: center;
     }
@@ -439,17 +471,56 @@ a {
         margin-bottom: 10px;
     }
 
+    .marseille .conteneur1 {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    .conteneur3 .cardlink {
+        margin: 6px 0;
+    }
+
+    .conteneur1 .popular {
+        background-color: transparent;
+    }
+
+    .cardlink .card {
+        border-radius: 20px;
+    }
+
+    .cardlink .imgpopular {
+        width: 135px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .cardlink .card-title {
+        padding-left: 15px;
+    }
+
+
+    .cardlink .cardpopular {
+        width: 350px;
+    }
+
+    .conteneur3 .imgmain {
+        width: 305px;
+    }
+
     .conteneur1 .conteneur2 {
-        overflow: scroll;
-        margin-right: 0;
+        margin: 0;
+        background: none;
     }
 
-    .conteneur1 .conteneur2 h2 {
-        padding-left: 40px;
+    .conteneur2 .more {
+        margin-top: 13px;
     }
 
-    .popular {
-        justify-content: center;
+    .conteneur1 .popular {
+        padding: 20px 20px;
+        width: auto;
+        border-radius: 0;
+        margin: 0;
     }
 
     .activites .content {
@@ -513,13 +584,60 @@ a {
         width: 100%;
     }
 
-    .conteneur1 .conteneur2 {
-        overflow: scroll;
-        margin-right: 0;
+    .marseille .conteneur1 {
+        flex-direction: column-reverse;
+        max-height: none;
     }
 
-    .popular {
-        justify-content: center;
+    .conteneur3 .cardlink {
+        margin: 6px 0;
+    }
+
+    .conteneur1 .popular {
+        background-color: transparent;
+    }
+
+    .cardlink .card {
+        border-radius: 20px;
+    }
+
+    .cardlink .imgpopular {
+        width: 135px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .cardlink .card-title {
+        padding-left: 15px;
+    }
+
+
+    .cardlink .cardpopular {
+        width: 350px;
+    }
+
+    .conteneur3 .imgmain {
+        width: 305px;
+    }
+
+    .conteneur1 .conteneur2 {
+        background: none;
+    }
+
+    .conteneur2 .more {
+        margin-top: 13px;
+    }
+
+    .conteneur1 .popular {
+        padding: 20px 20px;
+        width: auto;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .conteneur1 .popular .conteneur4 {
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .activites .content {
